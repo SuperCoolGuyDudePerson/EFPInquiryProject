@@ -190,10 +190,12 @@ const FlashcardGame = () => {
     setShowResult(false);
   };
 
-  const playAudio = (path) => {
-    const audio = new Audio(path);
-    audio.play().catch(console.error);
-  };
+const playAudio = (path) => {
+  const base = import.meta.env.BASE_URL;
+  const fullPath = `${base}${path.replace(/^\/+/, '')}`; // removes leading slash
+  const audio = new Audio(fullPath);
+  audio.play().catch(console.error);
+};
 
   
   return (

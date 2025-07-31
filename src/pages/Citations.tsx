@@ -283,13 +283,14 @@ return (
 >
   <h2 className="text-3xl font-bold text-stone-800 mb-6">Works Cited</h2>
   <div className="space-y-4 text-stone-600 leading-relaxed text-base">
+
     <p>“Endangered Languages in Canada.” <em>SAN Endangered Languages Project</em>, https://www.sanelp.ca/endangered-languages. Accessed 31 July 2025.¹</p>
 
-    <p>First Peoples' Cultural Council. “SENĆOŦEN and Halq'eméylem.” <em>FirstVoices</em>, https://www.firstvoices.com.²</p>
+    <p>First Peoples' Cultural Council. <em>FirstVoices</em>, https://www.firstvoices.com.²</p>
 
     <p>“Halq'eméylem.” <em>SAN Endangered Languages Project</em>, https://www.sanelp.ca/endangered-languages/halqemeylem. Accessed 31 July 2025.³</p>
 
-    <p>“Salishan Languages.” <em>Encyclopedia Britannica</em>, https://www.britannica.com/topic/Salishan-languages. Accessed 31 July 2025.⁴</p>
+    <p>“Salishan Languages.” <em>Encyclopedia Britannica</em>, 13 May 2013, https://www.britannica.com/topic/Salishan-languages. Accessed 31 July 2025.⁴</p>
 
     <p>Thom, Brian. “Coast Salish Senses of Place: Dwelling, Meaning, Power, Property, and Territory in the Coast Salish World.” <em>ResearchGate</em>, https://www.researchgate.net/publication/41615918.⁵</p>
 
@@ -304,6 +305,7 @@ return (
     <p className="text-xs italic text-stone-500 mt-4 font-bold">
       Superscript numbers correspond to references cited throughout the site and may appear out of numerical order to match MLA alphabetization.
     </p>
+
   </div>
 </motion.section>
 

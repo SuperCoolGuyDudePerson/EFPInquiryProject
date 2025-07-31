@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AboutLanguages from './pages/AboutLanguages';
@@ -13,8 +13,8 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop /> 
+    <Router basename="/EFPInquiryProject">
+      <ScrollToTop />
       <div className="min-h-screen bg-stone-50">
         <Navbar />
         <AnimatePresence mode="wait">
